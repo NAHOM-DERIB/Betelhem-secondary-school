@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  padding: 1.4rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+}
+.div-1 {
+  margin-left: 40rem;
+  justify-content: space-between;
+  text-decoration: none;
+}
