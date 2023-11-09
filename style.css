@@ -13,3 +13,27 @@
   justify-content: space-between;
   text-decoration: none;
 }
+.A1 {
+  padding-right: 0.4rem;
+  text-decoration: none;
+  margin-left: 0.5;
+  gap: 0.7rem;
+}
+.A2 {
+  padding-right: 0.4rem;
+  text-decoration: none;
+}
+.A3 {
+  padding-right: 0.4rem;
+  text-decoration: none;
+}
+.A4 {
+  padding-right: 10 rem;
+  text-decoration: none;
+}
+.img-1 {
+  padding-top: 10rem;
+}
+.A1 :hover {
+  background-color: black;
+}
