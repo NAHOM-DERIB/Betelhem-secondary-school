@@ -1,39 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
 .header {
-  position: fixed;
-  padding: 1.4rem;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: aqua;
+  padding-top: 0;
+  background-color: #042331;
+}
+.head {
   display: flex;
-  flex-direction: row;
-}
-.div-1 {
-  margin-left: 40rem;
+  height: 2rem;
+  top: 0;
+  padding-left: 70rem;
+  text-decoration: none;
   justify-content: space-between;
+  gap: 2rem;
+  margin-right: 2rem;
+}
+.n2 {
+  color: white;
+  font-size: 1.1rem;
+}
+.n2:hover {
+  color: green;
+}
+.n3 {
+  color: white;
+  font-size: 1rem;
+}
+.n3:hover {
+  color: green;
+}
+.n4 {
+  color: white;
+  font-size: 1rem;
+}
+.n4:hover {
+  color: green;
+}
+
+.container {
+  padding: 0;
+  list-style: none;
   text-decoration: none;
 }
-.A1 {
-  padding-right: 0.4rem;
-  text-decoration: none;
-  margin-left: 0.5;
-  gap: 0.7rem;
-}
-.A2 {
-  padding-right: 0.4rem;
-  text-decoration: none;
-}
-.A3 {
-  padding-right: 0.4rem;
+.slidebar {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #042331;
   text-decoration: none;
 }
-.A4 {
-  padding-right: 10 rem;
-  text-decoration: none;
+
+.slidebar header {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  background-color: #063146;
+  user-select: none;
 }
-.img-1 {
-  padding-top: 10rem;
+.slidebar li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 15px;
+  color: white;
+  padding-left: 40px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255m.1);
+  border-bottom: 1px solid black;
+  transition: 0.4s;
 }
-.A1 :hover {
-  background-color: black;
+.slidebar li a:hover {
+  padding-left: 50px;
+}
+.slidebar li a ion-icon {
+  margin-right: 17px;
 }
