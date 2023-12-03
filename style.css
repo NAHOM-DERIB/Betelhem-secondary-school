@@ -1,86 +1,89 @@
 * {
-  padding: 0;
   margin: 0;
-  list-style: none;
-  text-decoration: none;
-}
-.header {
-  padding-top: 0;
-  background-color: #042331;
-}
-.head {
-  display: flex;
-  height: 2rem;
-  top: 0;
-  padding-left: 70rem;
-  text-decoration: none;
-  justify-content: space-between;
-  gap: 2rem;
-  margin-right: 2rem;
-}
-.n2 {
-  color: white;
-  font-size: 1.1rem;
-}
-.n2:hover {
-  color: green;
-}
-.n3 {
-  color: white;
-  font-size: 1rem;
-}
-.n3:hover {
-  color: green;
-}
-.n4 {
-  color: white;
-  font-size: 1rem;
-}
-.n4:hover {
-  color: green;
-}
-
-.container {
   padding: 0;
-  list-style: none;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.header-1 {
+  position: fixed;
+  top: 0;
+  padding-left: 13px;
+  width: 100%;
+  padding: 2rem 8rem;
+  background-color: #162834;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+.div-1 {
+  color: white;
+}
+.div-2 {
+  padding-left: 30rem;
+  font-size: 1;
+}
+.a1 {
   text-decoration: none;
+  color: white;
+}
+.a1:hover {
+  color: olive;
+}
+.a1:active {
+  color: green;
+}
+.a2 {
+  padding-left: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.a2:hover {
+  color: olive;
+}
+.a2:active {
+  color: green;
+}
+.a3 {
+  padding-left: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.a3:hover {
+  color: olive;
+}
+.a3:active {
+  color: green;
 }
 .slidebar {
-  padding: 0;
-  margin: 0;
   position: fixed;
   left: 0;
-  width: 200px;
+  width: 13rem;
   height: 100%;
-  background-color: #042331;
-  text-decoration: none;
+  background: #162834;
 }
-
 .slidebar header {
-  font-size: 22px;
+  padding-top: 6rem;
+  font-size: 1.5rem;
   color: white;
   text-align: center;
-  line-height: 70px;
+  line-height: 3 rem;
   background-color: #063146;
   user-select: none;
 }
-.slidebar li a {
+.slidebar ul a {
   display: block;
   height: 100%;
   width: 100%;
-  line-height: 65px;
-  font-size: 15px;
+  line-height: 4rem;
+  font-size: 1rem;
   color: white;
-  padding-left: 40px;
-  border-radius: 6px;
+  padding-left: 2.5rem;
   box-sizing: border-box;
-  border-top: 1px solid rgba(255, 255, 255m.1);
+  border-top: 1px solid #063146;
   border-bottom: 1px solid black;
-  transition: 0.4s;
+  text-decoration: none;
+  transition: 2s;
 }
-.slidebar li a:hover {
-  padding-left: 50px;
-}
-.slidebar li a ion-icon {
-  margin-right: 17px;
+.ul li:hover {
+  margin-left: 30px;
 }
