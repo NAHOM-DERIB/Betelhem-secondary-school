@@ -1,0 +1,16 @@
+.about-us {
+  margin-top: 3rem;
+}
+.name {
+  margin-left: 35rem;
+  font-size: 3rem;
+  font-style: italic;
+  color: #162834;
+}
+.paragraph-1 {
+  font-size: 2rem;
+  font-style: bold;
+  margin-left: 15rem;
+  gap: 3rem;
+  color: #163629;
+}
